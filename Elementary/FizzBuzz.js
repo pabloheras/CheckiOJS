@@ -25,7 +25,7 @@ function fizzBuzz(data) {
     return data.toString();
 }
 
-var assert = require('assert');
+let assert = require('assert');
 
 if (!global.is_checking) {
     assert.equal(fizzBuzz(15), "Fizz Buzz", "15 is divisible by 3 and 5");
