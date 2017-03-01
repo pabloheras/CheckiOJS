@@ -51,7 +51,7 @@ function mostWanted(data) {
     return firstLetter;
 }
 
-var assert = require('assert');
+let assert = require('assert');
 
 if (!global.is_checking) {
     assert.equal(mostWanted("Hello World!"), "l", "1st example");

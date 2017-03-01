@@ -25,7 +25,7 @@ function evenLast(data) {
     return result;
 }
 
-var assert = require('assert');
+let assert = require('assert');
 
 if (!global.is_checking) {
     assert.equal(evenLast([0, 1, 2, 3, 4, 5]), 30, "(0+2+4)*5=30");

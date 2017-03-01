@@ -21,7 +21,7 @@ function mostNumbers(numbers){
     return 0;
 }
 
-var assert = require('assert');
+let assert = require('assert');
 
 if (!global.is_checking) {
     assert.equal(mostNumbers(1, 2, 3), 2, "3-1=2");

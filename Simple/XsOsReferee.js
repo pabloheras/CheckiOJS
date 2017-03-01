@@ -39,7 +39,7 @@ function xoReferee(data) {
     return "D";
 }
 ​
-var assert = require('assert');
+let assert = require('assert');
 ​
 if (!global.is_checking) {
     assert.equal(xoReferee([

@@ -28,7 +28,7 @@ function median(data) {
 }
 ​
 ​
-var assert = require('assert');
+let assert = require('assert');
 ​
 if (!global.is_checking) {
     assert.equal(median([1, 2, 3, 4, 5]), 3, "1st example");

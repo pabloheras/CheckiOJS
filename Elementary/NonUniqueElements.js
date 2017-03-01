@@ -31,7 +31,7 @@ function nonUniqueElements(data) {
 ​
 }
 ​
-var assert = require('assert');
+let assert = require('assert');
 ​
 if (!global.is_checking) {
     assert.deepEqual(nonUniqueElements([1, 2, 3, 1, 3]), [1, 3, 1, 3], "1st example");
